@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.nav-checkbox {
+  display: none;
+}
+
+.nav-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 50px;
+  transition: color 0.3s ease;
+}
+
+.nav-checkbox:checked + .nav-label {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.nav-image {
+  display: inline-block;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* Styles for the page content */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}

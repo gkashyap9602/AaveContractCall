@@ -1,0 +1,61 @@
+ /* Styles for the navigation bar */
+ .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px; /* adjust the font size as needed */
+    font-weight: bold; /* make the text bold */
+    color: #333; /* set the color of the text */
+    text-align: center; /* center the text horizontally */
+    margin: 20px 0; /* add some margin to the top and bottom of the element */
+    text-transform: uppercase; /* make the text uppercase */
+  }
+  
+  .nav-checkbox {
+    display: none;
+  }
+  
+  .nav-label {
+    display: inline-block;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 50px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-checkbox:checked + .nav-label {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  /* Styles for the page content */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
